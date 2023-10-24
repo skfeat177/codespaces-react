@@ -22,7 +22,7 @@ function Signup() {
         setload(true)
         try {
             const apiurl = process.env.REACT_APP_BACKEND_URL
-            const response = await fetch(`${apiurl}/signin`, {
+            const response = await fetch(`${apiurl}/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
