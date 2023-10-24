@@ -160,7 +160,7 @@ const [load,setload]=useState(false)
                         <div className="form-check mt-2">
                             <input checked type="checkbox" className="form-check-input" id="privacyPolicy" required />
                             <label className="form-check-label" htmlFor="privacyPolicy">
-                                I Agree to <a href='#' style={{ fontWeight: 'bold' }} >Privacy Policy</a> and <a href='#' style={{ fontWeight: 'bold' }} >Terms of Use</a>
+                                I Agree to <a href='/privacy' style={{ fontWeight: 'bold' }} >Privacy Policy</a> and <a href='/terms' style={{ fontWeight: 'bold' }} >Terms of Use</a>
                             </label>
                         </div>
 
