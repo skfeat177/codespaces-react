@@ -1,0 +1,50 @@
+.hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  #chip{
+    border:1px solid #fcfc;
+    border-radius: 10px;
+    padding-block: 5px;
+    padding-inline: 7px;
+    background-color: white;
+    color: #007BFF;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+}
+
+.box{
+    border:1px solid grey;
+    border-radius: 30px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    background-color: white;
+    color: #007BFF;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  .option{
+    border:1px solid grey;
+    border-radius: 20px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    background-color: white;
+    color: #007BFF;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top:10px;
+    width: 90%;
+    cursor:pointer;
+}
+
+.option:active{
+  background-color: #007BFF;
+  color:  white;
+}
